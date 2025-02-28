@@ -45,7 +45,7 @@ export const HW3 = () => {
             <h1 style={{marginTop: '50px'}}>СПИСОК ДЕЛ НА ДЕНЬ:</h1>
 
             <ol id={'hw03-tasks'}>
-                {texts.map((el, index) => { //отрисовать массив
+                {texts.map((el, index) => {
                     return (
                         <li key={index} id={`hw03-task-${index}`}>
                             {el}
